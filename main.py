@@ -28,5 +28,5 @@ def upload_file(file: UploadFile):
     return {"file": {"File Name": file.filename, "File Type": file.content_type}}
 
 
-if __name__ == "__main__":
-    uvicorn.run(app, host="127.0.0.1", port=9000)
+# if __name__ == "__main__":
+#     uvicorn.run(app, host="127.0.0.1", port=9000)
