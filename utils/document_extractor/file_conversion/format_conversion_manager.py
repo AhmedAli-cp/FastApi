@@ -1,7 +1,7 @@
 from os.path import abspath, exists, isdir, isfile
 from mimetypes import guess_type
 
-from DocumentExtractor.file_conversion.converters import ImageConverter, PDFConverter, DocConverter
+from utils.document_extractor.file_conversion.converters import ImageConverter, PDFConverter, DocConverter
 
 
 class FormatConversionManager(object):
