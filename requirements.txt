@@ -2,7 +2,9 @@ fastapi==0.74.1
 uvicorn==0.17.5
 pydantic==1.9.0
 python-multipart==0.0.5
-pdf2image~=1.16.0
+pdf2image==1.16.0
 opencv-python==4.5.5.62
+gunicorn==20.1.0
+
 
  #install poppler from https://github.com/oschwartz10612/poppler-windows/releases/ and add to environment variables.
