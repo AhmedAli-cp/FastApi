@@ -1,7 +1,7 @@
 from fastapi import FastAPI, UploadFile,  Request
 import uvicorn
-#from DocumentExtractor.file_conversion.format_conversion_manager import  FormatConversionManager
-#from DocumentExtractor import utils
+from utils.document_extractor.file_conversion.format_conversion_manager import FormatConversionManager
+from utils import utils
 
 app = FastAPI()
 
