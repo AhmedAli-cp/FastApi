@@ -7,7 +7,7 @@ class Image2ImageConverter(object):
 
     def __init__(self):
         self.tmpdir = "/tmp/dadocex"
-        self.optimal_formats = ["png", "jpeg"]
+        self.optimal_formats = ["png", "jpeg", "jpg"]
         self.not_supported_formats = ["gif"]
 
     def validate_path_type(self, file_path: str):
